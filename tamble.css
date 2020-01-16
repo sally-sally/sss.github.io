@@ -1,0 +1,116 @@
+body{font-family: sans-serif; padding: 0;margin: 0;}
+.container{width: 1500px;margin: auto;overflow: hidden}
+/*start navbar*/
+.navbar{background-color: #333333;overflow: hidden;color:#929292 ;padding: 0;margin: 0;text-transform: uppercase}
+.navbar p{float:left;margin:0;padding: 14px 12px}
+.navbar ul{list-style:none}
+.navbar ul li{float:right;padding-bottom: 10px}
+.navbar ul li a{text-decoration:none;color:#929292;padding:20px}
+.navbar a:hover{background-color:#00c8c8;color:white}
+/*end navbar*/
+/*start header*/
+.header{
+  
+    height:950px;
+    background-image: url(back.png);
+    background-size: cover;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.header .navbar1 p{float:left;font-weight: bolder;font-size: large}
+.header .navbar1 ul{list-style:none;float:right}
+.header .navbar1 ul li{float:left;}
+.header .navbar1 a{padding:15px;text-decoration:none;color:#727272;font-weight: bold}
+.header a:hover{color:#5bc6ca}
+.header .shop{padding: 800px 950px}
+.header .button{padding:15px 70px;background:none; color:#454647;border:2px solid #454647;font-weight: bold;}
+.header .button:hover{background-color:#00c8c8;color:white;border:none;fon}
+/*end header*/
+
+/*start images*/
+
+.detail{background-color: ;overflow: hidden;padding-bottom: 60px}
+.detail .container{border-bottom: 2px solid #eee;border-top:2px solid #eee;padding-bottom: 40px}
+.detail .nav{background-color:;overflow: hidden}
+.detail ul{list-style: none;padding: 30px ;}
+.detail ul li{float:left;padding-bottom: 40px}
+.detail ul li a{color:#727272;padding: 20px;text-decoration: none}
+.detail  a:hover{color: #11cccc}
+
+.detail .image .img1{width:24%;float:left;overflow:hidden;padding:10px;transition:1s;}
+.detail .image .img1:hover{transform:scale(0.9);}
+.detail .image .img2{width:24%;float:left;overflow:hidden;padding:10px;transition:1s}
+.detail .image .img2:hover{transform:scale(0.9)}
+.detail .image .img3{width:48%;float:left;overflow:hidden;padding:10px;transition:1s}
+.detail .image .img3:hover{transform:scale(0.9)}
+.detail .image .img4{width:48%;float:left;overflow:hidden;padding:10px;transition:1s}
+.detail .image .img4:hover{transform:scaleY(1.5)}
+.detail .image .img5{width:24%;float:left;overflow:hidden;padding:10px;transition:1s}
+.detail .image .img5:hover{transform:scale(0.9)}
+.detail .image .img6{width:24%;float:left;overflow:hidden;padding:10px;transition:1s}
+.detail .image .img6:hover{transform:scale(0.9)}
+/*end images*/
+/*start look*/
+.look{;overflow: hidden;text-align:right;padding-bottom: 80px}
+.look .women{width: 30%;float: left;overflow: hidden;background-color:#f8f8f8;margin:50px;text-align:right;transition: 1s}
+.look .women:hover{transform:translateY(30px);box-shadow: rgb(0,0,0,13)}
+.look .women .photo{float: left;}
+.look .women h1{padding-right:70px}
+.look .men{width: 30%;float: left;overflow: hidden;;background-color:#f8f8f8;margin:50px;transition: 1s}
+.look .men:hover{transform: translateY(30px)}
+.look .men .photo1{float: left;overflow: hidden}
+.look .men h1{padding-right:70px}
+.look .who{width: 30%;float: left;overflow: hidden;;background-color:#f8f8f8;margin:50px;transition: 1s}
+.look .who:hover{transform: translateY(30px)}
+.look .who .photo2{float: left;}
+.look .who h1{text-transform:uppercase;padding-right:30px}
+.look  h1{font-size:;margin-bottom:0px;padding-top:100px;color:#575153;text-transform: uppercase;}
+.look  h3{margin:0px ;font-family:serif;text-transform:capitalize;font-size:-webkit-xxx-large;padding-right:20px;color: #575153}
+.look p{line-height:1.6;padding-right:30px;color:#848484}
+.look button{padding:15px 45px;background:none;color:#454647;border:2px solid #454647;margin-right:30px }
+.look button:hover{color:#f8f8f8;background-color: #00c8c8;border:none;}
+/*end look*/
+/*start footer*/
+.footer{background-color: #f8f8f8;overflow: hidden}
+.footer .information{width: 20%;float: left;overflow: hidden;}
+.footer .information ul{list-style:none}
+.footer .information ul li{display:block;padding:5px;}
+ .footer .information ul li a{text-decoration:none;color:#8d8d8d }
+.footer .information ul li a:hover{color:#61cdcd}
+.footer .why{width: 20%;float: left;overflow: hidden;}
+.footer .why ul{list-style:none}
+.footer .why ul li{display:block;padding:5px}
+.footer .why ul li a{text-decoration:none;color:#8d8d8d}
+.footer .why ul li a:hover{color:#61cdcd}
+.footer .your{width: 20%;float: left;overflow: hidden}
+.footer .your ul{list-style:none}
+.footer .your ul li{display:block;padding:5px}
+.footer .your ul li a {text-decoration:none;color:#8d8d8d}
+.footer .your ul li a:hover{color:#61cdcd}
+.footer .book{width: 20%;float: left;overflow: hidden}
+.footer .book ul{list-style:none}
+.footer .book ul li{display:block;padding:5px}
+.footer .book ul li a{text-decoration:none;color:#8d8d8d}
+.footer ul li a:hover{color: #61cdcd}
+.footer .contact{width: 20%;float: left;overflow: hidden}
+.footer .contact ul{list-style:none}
+.footer .contact ul li{padding:5px;color:#8d8d8d}
+
+.footer .award{width: 40%;float: left;overflow: hidden;background-color:#333333;text-align:center;text-transform:uppercase;color:#ffffff;margin-bottom:50px;margin-top:50px;margin-right:30px}
+.footer .award h1{margin-top:10px}
+.footer .award h2{font-size:xxx-large;margin-top:0;margin-bottom:10px;font-family:initial}
+
+.footer .facebook{width: 50%;float: left;overflow: hidden;background-color:#00c8c8;margin:50px;text-align:center}
+.footer .facebook ul{list-style:none;padding:25px}
+.footer .facebook ul li{display:inline;}
+.footer .facebook ul li a{color:#ffffff;padding:10px;}
+.footer .facebook ul li a:hover{color: #cdf5f5}
+.footer h3{color: #575153;text-transform: uppercase;padding-top: 50px;margin-left:37px}
+/*end footer*/
+
+/*start copy*/
+.copy{background-color: #333333;color: #777777}
+.copy .one{width: 48%;float: left;padding: 15px}
+.copy .two{width: 18%;float: left;padding: 15px}
+.copy .tree{width: 18%;float: left;padding: 15px}
+/*end copy*/
